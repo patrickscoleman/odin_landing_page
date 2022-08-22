@@ -1,31 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font: 'Roboto', sans-serif;
+  color: #F9FAF8;
 }
 
 .header {
-
+  padding: 0 10%;
+  background-color: #1F2937;
+  font: 18px;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-
+  font: 24px bold;
+  color: #F9FAF8;
 }
 
 .links {
-
 }
 
 .links > li {
 
 }
 
-.hero {
+.hero h1 {
+  font: 48px extra-bold;
+}
 
+.hero {
+  padding: 0 10%;
+  background-color: #1F2937;
+  font: 18px;
+  color: #E5E7EB;
 }
 
 .hero-text {
 
+}
+
+button {
+  background: #3882f6;
+  color: #F9FAF8;
 }
 
 .hero > img {
@@ -33,15 +51,18 @@ body {
 }
 
 .info {
+  padding: 0 10%;
 
 }
 
 .info > h2 {
-
+  font: 36px extra-bold;
+  color: #1F2937;
 }
 
 .info-content {
-
+  font: 18px;
+  color: #525B69;
 }
 
 .info-content-image {
@@ -49,11 +70,13 @@ body {
 }
 
 .quote {
-
+  padding: 0 10%;
+  background: #E5E7EB;
 }
 
-blockquote {
-
+.quote > blockquote {
+  font: 36px italic 300;
+  color: #1F2937;
 }
 
 .source {
@@ -61,7 +84,8 @@ blockquote {
 }
 
 .cta {
-
+  padding: 0 10%;
+  background: #3882f6;
 }
 
 .cta-object {
@@ -81,5 +105,7 @@ blockquote {
 }
 
 .footer {
+  padding: 0 10%;
+  background-color: #1F2937;
 
 }
