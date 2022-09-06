@@ -20,6 +20,9 @@ body {
 }
 
 .links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
 }
 
 .links > li {
@@ -47,7 +50,9 @@ button {
 }
 
 .hero > img {
-
+  background-color: #6D747D;
+  width: 400px;
+  height: 200px;
 }
 
 .info {
@@ -61,6 +66,7 @@ button {
 }
 
 .info-content {
+  list-style: none;
   font: 18px;
   color: #525B69;
 }
